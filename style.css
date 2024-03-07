@@ -54,3 +54,56 @@ body {
 .search button img{
     width: 100%;
 }
+
+.weather-icon{
+    width: 200px;
+    margin-top: 30px;
+}
+
+.weather h1{
+    font-size: 80px;
+    font-weight: 400;
+}
+
+.weather h2{
+    font-size: 80px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.col img{
+    width: 50px;
+    margin-right: 10px;
+}
+
+.humidity, .wind{ 
+    font-size: 28px;
+    margin-top: -6px;
+}
+
+/* API Key - 5f403f01f3ef08df297c9d97efb80085 */
+
+/* https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API key} */
+
+/* latitude and longitude of  */
+
+/* units=metric */
+
+/* germany
+lat - 51.1657
+lon - 10.4515 */
+
