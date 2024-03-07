@@ -83,6 +83,7 @@ body {
     display: flex;
     align-items: center;
     text-align: left;
+    justify-content: space-between;
 }
 
 .col img{
@@ -114,10 +115,10 @@ body {
     .humidity, .wind{ 
         font-size: 15px;
     }    
-    .details{
-        padding: 0 10px;
-        margin-top: 40px;
-    }    
+    .col img{
+        width: 45px;
+        margin-right: 5px;
+    }
 }
 
 /* API Key - 5f403f01f3ef08df297c9d97efb80085 potterville*/
