@@ -107,7 +107,16 @@ body {
     display: none;
 }
 
-/* API Key - 5f403f01f3ef08df297c9d97efb80085 */
+@media only screen and (max-width: 700px){
+    .weather h1, .weather h2{
+        font-size: 60px;
+    }
+    .humidity, .wind{ 
+        font-size: 15px;
+    }    
+}
+
+/* API Key - 5f403f01f3ef08df297c9d97efb80085 potterville*/
 
 /* https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API key} */
 
